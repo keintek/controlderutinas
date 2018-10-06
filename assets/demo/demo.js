@@ -241,10 +241,10 @@ demo = {
 
     $.notify({
       icon: "add_alert",
-      message: "Welcome to <b>Material Dashboard</b> - a beautiful freebie for every web developer."
+      message: "Rutina en ejecución"
 
     }, {
-      type: type[color],
+      type: type[1],
       timer: 3000,
       placement: {
         from: from,

@@ -34,13 +34,13 @@
       </div>
       <div class="sidebar-wrapper">
         <ul class="nav">
-          <li class="nav-item active  ">
+          <li class="nav-item">
             <a class="nav-link" href="./index.php">
               <i class="material-icons">dashboard</i>
               <p>Panel Central</p>
             </a>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="./rutinas.php">
               <i class="material-icons">swap_calls</i>
               <p>Rutinas</p>
@@ -128,145 +128,64 @@
       <div class="content">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-5 col-md-6 col-sm-6">
-              <div class="card card-stats">
-                <div class="card-header card-header-success card-header-icon">
-                  <div class="card-icon">
-
-                    <a href="#" style='text-decoration:none;color:white;'><i class="material-icons">swap_calls</i></a>
-                  </div>
-                  <p class="card-category"></p>
-                  <h3 class="card-title">Rutinas
-                  </h3>
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header card-header-info">
+                  <h4 class="card-title ">Rutinas</h4>
+                  <p class="card-category"> </p>
                 </div>
-                <div class="card-footer">
-                  <div class="stats">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-5 col-md-6 col-sm-6">
-              <div class="card card-stats">
-                <div class="card-header card-header-info card-header-icon">
-                  <div class="card-icon">
-
-                    <a href="#" style='text-decoration:none;color:white;'><i class="material-icons">web</i></a>
-                  </div>
-                  <p class="card-category"></p>
-                  <h3 class="card-title">Manipulador Elec
-                  </h3>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-5 col-md-6 col-sm-6">
-              <div class="card card-stats">
-                <div class="card-header card-header-info card-header-icon">
-                  <div class="card-icon">
-
-                    <a href="#" style='text-decoration:none;color:white;'><i class="material-icons">web</i></a>
-                  </div>
-                  <p class="card-category"></p>
-                  <h3 class="card-title">Equipo:2
-                  </h3>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-5 col-md-6 col-sm-6">
-              <div class="card card-stats">
-                <div class="card-header card-header-info card-header-icon">
-                  <div class="card-icon">
-
-                    <a href="#" style='text-decoration:none;color:white;'><i class="material-icons">web</i></a>
-                  </div>
-                  <p class="card-category"></p>
-                  <h3 class="card-title">Equipo:3
-                  </h3>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-5 col-md-6 col-sm-6">
-              <div class="card card-stats">
-                <div class="card-header card-header-info card-header-icon">
-                  <div class="card-icon">
-
-                    <a href="#" style='text-decoration:none;color:white;'><i class="material-icons">web</i></a>
-                  </div>
-                  <p class="card-category"></p>
-                  <h3 class="card-title">Equipo:4
-                  </h3>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-5 col-md-6 col-sm-6">
-              <div class="card card-stats">
-                <div class="card-header card-header-info card-header-icon">
-                  <div class="card-icon">
-
-                    <a href="#" style='text-decoration:none;color:white;'><i class="material-icons">web</i></a>
-                  </div>
-                  <p class="card-category"></p>
-                  <h3 class="card-title">Equipo:5
-                  </h3>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead class=" text-info">
+                        <th>
+                          ID
+                        </th>
+                        <th>
+                          Nombre
+                        </th>
+                        <th>
+                          Tiempo Total
+                        </th>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            1
+                          </td>
+                          <td>
+                            Rutina Ejemplo
+                          </td>
+                          <td>
+                            1 HR
+                          </td>
+                          <td>
+                            <button class="btn btn-info btn-block" onclick="demo.showNotification('top','center')">Seleccionar</button>
+                          </td>                          
+                        </tr>
+                        <tr>
+                          <td>
+                            2
+                          </td>
+                          <td>
+                            Rutina Ejemplo ADASD
+                          </td>
+                          <td>
+                            1 HR
+                          </td>
+                          <td>
+                            <button class="btn btn-info btn-block" onclick="demo.showNotification('top','center')">Seleccionar</button>
+                          </td>                          
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
                 </div>
               </div>
             </div>
             
           </div>
-          <div class="row">
-            
-            <div class="col-md-4">
-              <div class="card card-chart">
-                <div class="card-header card-header-warning">
-                  <div class="ct-chart" id="websiteViewsChart"></div>
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">Historial de uso</h4>
-                  <p class="card-category">Uso de los equipos durante el último mes</p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> Actualizado el: 01/10/2018
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card card-chart">
-                <div class="card-header card-header-danger">
-                  <div class="ct-chart" id="completedTasksChart"></div>
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">Rutinas Realizadas</h4>
-                  <p class="card-category">Total de rutinas durante el mes</p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> Actualizado el: 01/10/2018
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
       <footer class="footer">
         <div class="container-fluid">
           <nav class="float-left">
